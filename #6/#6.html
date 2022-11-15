@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal info</legend>
+        <div>
+          <label for="name">First Name</label>
+          <input type="text" id="First Name" />
+        </div>
+        <div>
+          <label for="name">Last Name</label>
+          <input type="text" id="Last Name" />
+        </div>
+        <input type="datetime-local" name="datetime" id="datetime" />
+        <input type="file" id="file" accept="image/*" multiple />
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend>Course Info</legend>
+        <p>Course</p>
+        <form>
+          <input type="radio" id="soup" name="meal" value="soup" /> Web Design
+        </form>
+        <form>
+          <input type="radio" id="soup" name="meal" value="soup" /> SQL
+        </form>
+        <form>
+          <input type="radio" id="soup" name="meal" value="soup" /> Programming
+        </form>
+
+        <p>Career goal</p>
+        <select>
+          <option value="books">Books</option>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="PHP">PHP</option>
+          <option value="JS">JS</option>
+        </select>
+
+        <form>
+          <p>Skill(check all that apply)</p>
+          <input
+            type="checkbox"
+            id="questionOne"
+            name="Subscribe"
+            value="Yeas"
+          />
+          UNIX
+          <input
+            type="checkbox"
+            id="questionOne"
+            name="Subscribe"
+            value="Yeas"
+          />
+          YIM
+        </form>
+
+        <form>
+          <input
+            type="checkbox"
+            id="questionOne"
+            name="Subscribe"
+            value="Yeas"
+          />
+          HTML
+          <input
+            type="checkbox"
+            id="questionOne"
+            name="Subscribe"
+            value="Yeas"
+          />
+          CSS
+        </form>
+
+        <form>
+          <input
+            type="checkbox"
+            id="questionOne"
+            name="Subscribe"
+            value="Yeas"
+          />
+          Python
+          <input
+            type="checkbox"
+            id="questionOne"
+            name="Subscribe"
+            value="Yeas"
+          />
+          Java Script
+        </form>
+        <input
+          type="password"
+          placeholder="Create new password"
+          min="5"
+          max="8"
+        />
+        <p>Describe any addicional skills you have</p>
+        <textarea> Text here... </textarea>
+      </fieldset>
+    </form>
+    <button type="reset">Reset Info</button>
+    <button type="button">Enter my information</button>
+  </body>
+</html>
